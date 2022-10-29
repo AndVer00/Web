@@ -1,0 +1,36 @@
+footer {
+    position: sticky;
+    align-items: center;
+    display: flex;
+    top: 0;
+    height: 75px;
+    gap: 50px;
+    background: #FFFFFF;
+}
+
+.links {
+    align-items: center;
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 50px;
+}
+
+.links__item {
+    font-size: 30px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    color:#FD7E14;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: transparent;
+    white-space: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 550;
+}
+
+.links__item:hover {
+    color: #DB6F10;
+    transition: 0.3s ease;
+}
