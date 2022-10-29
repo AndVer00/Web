@@ -2,124 +2,73 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-        <meta name="keywords" content="важные, ключевые, слова">
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
         <title>Web программирование</title>
     </head>
 
     <body>
-        <header>
-            <h1>
-                <div class="logo">
-                Магазин каких-то рандомных вещей
-                </div>
-            </h1>
-            <blockquote>
-                <p>"Лучше один раз упасть, чем сто раз упасть" <sub><cite>Джейсон Стэтхэм</cite></sub></p>
-            </blockquote>
-            <pre>⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⣿⣿⣿⣿⣿⣿⠿⢋⣥⣴⣶⣶⣶⣬⣙⠻⠟⣋⣭⣭⣭⣭⡙⠻⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⡿⢋⣴⣿⣿⠿⢟⣛⣛⣛⠿⢷⡹⣿⣿⣿⣿⣿⣿⣆⠹⣿⣿⣿⣿
-⣿⣿⣿⡿⢁⣾⣿⣿⣴⣿⣿⣿⣿⠿⠿⠷⠥⠱⣶⣶⣶⣶⡶⠮⠤⣌⡙⢿⣿
-⣿⡿⢛⡁⣾⣿⣿⣿⡿⢟⡫⢕⣪⡭⠥⢭⣭⣉⡂⣉⡒⣤⡭⡉⠩⣥⣰⠂⠹
-⡟⢠⣿⣱⣿⣿⣿⣏⣛⢲⣾⣿⠃⠄⠐⠈⣿⣿⣿⣿⣿⣿⠄⠁⠃⢸⣿⣿⡧
-⢠⣿⣿⣿⣿⣿⣿⣿⣿⣇⣊⠙⠳⠤⠤⠾⣟⠛⠍⣹⣛⣛⣢⣀⣠⣛⡯⢉⣰
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡶⠶⢒⣠⣼⣿⣿⣛⠻⠛⢛⣛⠉⣴⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⡿⢛⡛⢿⣿⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡈⢿⣿
-⣿⣿⣿⣿⣿⣿⣿⠸⣿⡻⢷⣍⣛⠻⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢇⡘⣿
-⣿⣿⣿⣿⣿⣿⣿⣷⣝⠻⠶⣬⣍⣛⣛⠓⠶⠶⠶⠤⠬⠭⠤⠶⠶⠞⠛⣡⣿
-⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣬⣭⣍⣙⣛⣛⣛⠛⠛⠛⠿⠿⠿⠛⣠⣿⣿
-⣦⣈⠉⢛⠻⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⣁⣴⣾⣿⣿⣿⣿
-⣿⣿⣿⣶⣮⣭⣁⣒⣒⣒⠂⠠⠬⠭⠭⠭⢀⣀⣠⣄⡘⠿⣿⣿⣿⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡈⢿⣿⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-            </pre>
-            <h2>
-                <div class="utility-bar">
-                    <nav>
-                        <a href="#" class="utility-bar-item">Избранное</a>
-                        <a href="#" class="utility-bar-item">Корзина</a>
-                    </nav>
-                </div>
-            </h2>
+        <header class="header">
+            <a href="#" class="logo"><img class="logo-img" src="assets/logo.png" alt="logo"></a>
+            <h1 class="title">Random AF Store</h1>
+            <div class="utility-bar">
+                <nav class="utility-bar__nav">
+                    <a href="#" class="utility-bar__nav-item">Избранное</a>
+                    <a href="#" class="utility-bar__nav-item">Корзина</a>
+                    <a href="#" class="utility-bar__nav-item">Личный кабинет</a>
+                </nav>
+            </div>
         </header>
 
-        <main>
-            <aside>
-                <h3>
-                    Каталог
-                </h3>
-                <div class="catalog">
-                    <ol>
-                        <li>
-                            <a href="#" class="list-group-item">Вид товаров №1</a>
-                        </li>
-                        <li>
-                            <a href="#" class="list-group-item">Вид товаров №2</a>
-                        </li>
-                        <li>
-                            <a href="#" class="list-group-item">Вид товаров №3</a>
-                        </li>
-                        <li>
-                            <a href="#" class="list-group-item">Вид товаров №4</a>
-                        </li>
-                        <li>
-                            <a href="#" class="list-group-item">Вид товаров №5</a>
-                        </li>
-                    </ol>
-                </div>
-            </aside>
-            <section>
-                <strong>Актуальные предложения:</strong>
-                <section>
-                    <div class="product">
-                        <p class="product-title">
-                            <a href="#">Рандомный товар №1</a>
-                        </p>
-                        <div class="product-info">
-                            <ul>
-                                <li>
-                                    Цена: €10.00
-                                </li>
-                                <li>
-                                    Материал: пластик
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section>
-                    <div class="product">
-                        <p class="product-title">
-                            <a href="#">Рандомный товар №2</a>
-                        </p>
-                        <div class="product-info">
-                            <ul>
-                                <li>
-                                    Цена: €100.00
-                                </li>
-                                <li>
-                                    Материал: пластик
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-            </section>
+        <main class="main">
+            <div class="catalog">
+                <h2 class="catalog__title">Каталог</h2>
+                <ul class="catalog__list">
+                    <li class="catalog__list-item"><a href="#" class="catalog__list-item-text">Вид товаров №1</a></li>
+                    <li class="catalog__list-item"><a href="#" class="catalog__list-item-text">Вид товаров №2</a></li>
+                    <li class="catalog__list-item"><a href="#" class="catalog__list-item-text">Вид товаров №3</a></li>
+                    <li class="catalog__list-item"><a href="#" class="catalog__list-item-text">Вид товаров №4</a></li>
+                    <li class="catalog__list-item"><a href="#" class="catalog__list-item-text">Вид товаров №5</a></li>
+                </ul>
+            </div>
+
+            <div class="hot-offers">
+                <h2 class="hot-offers__title">Актуальные предложения</h2>
+                <ul class="hot-offers__list">
+                    <li class="hot-offers__list-product">
+                        <div class="hot-offers__list-product-img"><img src="assets/product-img.png" alt="product-img-1"></div>
+                        <a href="#" class="hot-offers__list-product-title">Рандомный товар №1</a>
+                        <ul class="hot-offers__list-product-info">
+                            <li class="hot-offers__list-product-info-item">Цена: €10.00</li>
+                        </ul>
+                    </li>
+
+                    <li class="hot-offers__list-product">
+                        <div class="hot-offers__list-product-img"><img src="assets/product-img.png" alt="product-img-2"></div>
+                        <a href="#" class="hot-offers__list-product-title">Рандомный товар №2</a>
+                        <ul class="hot-offers__list-product-info">
+                            <li class="hot-offers__list-product-info-item">Цена: €100.00</li>
+                        </ul>
+                    </li>
+
+                    <li class="hot-offers__list-product">
+                        <div class="hot-offers__list-product-img"><img src="assets/product-img.png" alt="product-img-3"></div>
+                        <a href="#" class="hot-offers__list-product-title">Рандомный товар №3</a>
+                        <ul class="hot-offers__list-product-info">
+                            <li class="hot-offers__list-product-info-item">Цена: €1000.00</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </main>
 
-        <footer>
-            Contact Info
-            <div class="code">
-                <article>
-                    <pre>
-                        <code>
-    class HelloWorld {
-        public static void main(String[] args) {
-            System.out.println("Hello, World!");
-        }
-    }
-                        </code>
-                    </pre>
-                </article>
+        <footer class="footer">
+            <div class="links">
+                <a class="links__item" href="https://github.com/AndVer00" target="_blank" rel="noopener">GitHub</a>
+                <a class="links__item" href="https://t.me/Angwar1" target="_blank" rel="noopener">Telegram</a>
+                <a class="links__item" href="https://discordapp.com/users/477219835483521038/" target="_blank" rel="noopener">Discord</a>
             </div>
         </footer>
     </body>
