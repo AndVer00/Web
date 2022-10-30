@@ -1,16 +1,18 @@
 header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     position: sticky;
     top: 0;
     height: 75px;
-    align-items: center;
-    display: flex;
     gap: 50px;
     box-shadow: 0 4px 4px rgba(199, 199, 199, 0.5);
     background: #FFFFFF;
+    z-index: 1000;
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .title {
@@ -48,9 +50,15 @@ header {
     white-space: normal;
     text-decoration: none;
     text-transform: none;
-    font-weight: 550;
+    font-weight: 600;
 }
 
 .utility-bar__nav-item:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .title {
+        display: none;
+    }
 }
