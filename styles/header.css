@@ -53,6 +53,21 @@ header {
     font-weight: 600;
 }
 
+.utility-bar__nav-item__selected {
+    font-size: 22px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    text-align: center;
+    height: 30px;
+    color: #804613;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: transparent;
+    white-space: normal;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: 700;
+}
+
 .utility-bar__nav-item:hover {
     text-decoration: underline;
 }
