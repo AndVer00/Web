@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/footer.css">
-        <script src="scripts/loadTime.js"></script>
+        <link rel="stylesheet" href="styles/reviews.css">
         <script src="scripts/getLocation.js"></script>
         <title>Web программирование</title>
     </head>
@@ -25,7 +25,18 @@
         </header>
 
         <main class="main">
-            <div id="load_test"></div>
+            <div class="reviews">
+                <div class="reviews__header">Можете оставить отзыв о нашем магазине:</div>
+                <form class="reviews__form">
+                    <label>
+                        <input class="reviews__form-input" type="text"/>
+                    </label>
+                    <button class="reviews__form-button">Отправить</button>
+                </form>
+                <div class="reviews__container"></div>
+            </div>
         </main>
     </body>
+
+    <script src="scripts/reviewCreator.js"></script>
 </html>

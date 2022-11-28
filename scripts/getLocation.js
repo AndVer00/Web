@@ -1,5 +1,5 @@
 const pages = {
-    favorites: "Избранное",
+    reviews: "Отзывы",
     cart: "Корзина",
     personal_account: "Личный кабинет"
 }

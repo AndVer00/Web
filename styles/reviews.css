@@ -1,0 +1,45 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    top: 0;
+    box-shadow: 0 2px 2px rgba(199, 199, 199, 0.5);
+    background: #F7F7F7;
+}
+
+.reviews__form-button {
+    width: 100px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-right: 50px;
+    color: #474747;
+    border-radius: 10px;
+    border-color: #C4C3C1;
+    background-color: #FFFFFF;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.reviews__form-button:hover {
+    color: #FFFFFF;
+    border-color: #F7A760;
+    background-color: #FD7E14;
+}
+
+.reviews__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviews__container-item {
+    width: auto;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border-color: #F7A760;
+    background-color: #FD7E14;
+    box-shadow: 0 2px 2px rgba(199, 199, 199, 0.5);
+}
