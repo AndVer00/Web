@@ -1,6 +1,7 @@
 .reviews {
     display: flex;
     flex-direction: column;
+    gap: 20px;
     position: static;
     top: 0;
     box-shadow: 0 2px 2px rgba(199, 199, 199, 0.5);
@@ -10,9 +11,6 @@
 .reviews__form-button {
     width: 100px;
     font-family: Comic Sans MS, Comic Sans, cursive;
-    margin-top: 75px;
-    margin-bottom: 75px;
-    margin-right: 50px;
     color: #474747;
     border-radius: 10px;
     border-color: #C4C3C1;
@@ -42,4 +40,48 @@
     border-color: #F7A760;
     background-color: #FD7E14;
     box-shadow: 0 2px 2px rgba(199, 199, 199, 0.5);
+}
+
+.preloader {
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    height: 600px;
+    z-index: 1001;
+    position: relative;
+    background: url('../assets/preloader.gif') no-repeat 50% 50%;
+}
+
+.all-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all-review-list {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.reviews-list__item {
+    width: 500px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #474747;
+    border-radius: 10px;
+    border-color: #C4C3C1;
+    background-color: #FFFFFF;
+
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.reviews-list__item-name {
+    color: #FD7E14;
+}
+
+.all-review-list-title {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
